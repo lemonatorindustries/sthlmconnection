@@ -8,7 +8,7 @@ function db_connect_sthlm()
 
 $host 		= "localhost";
 $dbname		= 'sthlmconnection';
-$user 		= "sthlm_user";
+$user 		= "xxxxxxxxxxxxxxxxxxxx";
 $pass 		= "xxxxxxxxxxxxxxxxxxxx";
 
 $dsn = "mysql:host=$host;dbname=$dbname";	
