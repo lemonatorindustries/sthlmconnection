@@ -9,7 +9,7 @@ function db_connect_sthlm()
 $host 		= "localhost";
 $dbname		= 'sthlmconnection';
 $user 		= "sthlm_user";
-$pass 		= "GvWSVsaJVCzEAY0V";
+$pass 		= "xxxxxxxxxxxxxxxxxxxx";
 
 $dsn = "mysql:host=$host;dbname=$dbname";	
 	
@@ -29,7 +29,7 @@ $dsn = "mysql:host=$host;dbname=$dbname";
 	catch(PDOException $e)
 	{
 		echo $e->getMessage();
-		# Eventuellt: Dölj felmeddelanden för användare och skriv dom istället till fil		
+		# Eventuellt: DÃ¶lj felmeddelanden fÃ¶r anvÃ¤ndare och skriv dom istÃ¤llet till fil		
 	}
 }
 ?>
